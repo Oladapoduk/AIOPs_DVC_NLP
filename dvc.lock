@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  stage_name:
+    cmd: python src/stage_01_get_data.py --config=configs/config.yaml
+    deps:
+    - path: configs/config.yaml
+      md5: af5651e009784e8282b8bd8f12eeee3d
+      size: 539
+    - path: src/stage_01_get_data.py
+      md5: bc5aa7046723be89c9fa7666d31d0aff
+      size: 1553
+    - path: src/utils/common.py
+      md5: d162961d817182441383bdb0e674e685
+      size: 675
+    outs:
+    - path: data/data.xml
+      md5: 9d92310f853ef5865fb642fbacfbd1ac
+      size: 74229
