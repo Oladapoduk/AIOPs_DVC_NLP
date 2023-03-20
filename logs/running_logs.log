@@ -1,0 +1,217 @@
+[2023-03-16 14:35:20,181: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 14:35:20,181: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 14:35:20,186: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 14:35:20,187: INFO: stage_01_get_data]: >>>>> stage stage one get data completed!<<<<<
+
+[2023-03-16 14:35:37,977: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 14:35:37,977: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 14:35:37,980: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 14:35:37,981: INFO: stage_01_get_data]: >>>>> stage stage one get data completed!<<<<<
+
+[2023-03-16 14:47:36,984: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 14:47:36,984: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 14:47:36,987: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 14:47:36,988: ERROR: stage_01_get_data]: string indices must be integers
+Traceback (most recent call last):
+  File ".\src\stage_01_get_data.py", line 38, in <module>
+    main(config_path=parsed_args.config)
+  File ".\src\stage_01_get_data.py", line 24, in main
+    local_data_dir = config["source_data_url"]["data_dir"]
+TypeError: string indices must be integers
+[2023-03-16 14:48:28,396: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 14:48:28,397: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 14:48:28,399: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 14:48:28,400: ERROR: stage_01_get_data]: string indices must be integers
+Traceback (most recent call last):
+  File ".\src\stage_01_get_data.py", line 38, in <module>
+    main(config_path=parsed_args.config)
+  File ".\src\stage_01_get_data.py", line 24, in main
+    local_data_dir = config["source_data_url"]["data_dir"]
+TypeError: string indices must be integers
+[2023-03-16 14:49:37,506: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 14:49:37,506: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 14:49:37,509: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 14:49:37,510: ERROR: stage_01_get_data]: string indices must be integers
+Traceback (most recent call last):
+  File ".\src\stage_01_get_data.py", line 38, in <module>
+    main(config_path=parsed_args.config)
+  File ".\src\stage_01_get_data.py", line 24, in main
+    local_data_dir = config["source_data_url"]["data_dir"]
+TypeError: string indices must be integers
+[2023-03-16 14:53:12,608: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 14:53:12,609: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 14:53:12,617: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 14:53:12,618: INFO: common]: created directory at: data
+[2023-03-16 14:53:12,618: INFO: stage_01_get_data]: >>>>> stage stage one get data completed!<<<<<
+
+[2023-03-16 14:56:51,274: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 14:56:51,275: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 14:56:51,277: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 14:56:51,279: INFO: common]: created directory at: data
+[2023-03-16 14:56:51,279: INFO: stage_01_get_data]: >>>>> stage stage one get data completed!<<<<<
+
+[2023-03-16 15:01:31,076: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 15:01:31,077: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 15:01:31,079: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 15:01:31,079: INFO: common]: created directory at: data
+[2023-03-16 15:01:31,079: INFO: stage_01_get_data]: Download started
+[2023-03-16 15:01:31,621: INFO: stage_01_get_data]: Download completed
+[2023-03-16 15:01:31,621: INFO: stage_01_get_data]: Download file is present at: {filename}
+[2023-03-16 15:01:31,622: INFO: stage_01_get_data]: Download headers: {headers}
+[2023-03-16 15:01:31,622: INFO: stage_01_get_data]: >>>>> stage stage one get data completed!<<<<<
+
+[2023-03-16 15:04:51,560: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 15:04:51,561: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 15:04:51,563: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 15:04:51,563: INFO: common]: created directory at: data
+[2023-03-16 15:04:51,563: INFO: stage_01_get_data]: Download started
+[2023-03-16 15:04:52,058: INFO: stage_01_get_data]: Download completed
+[2023-03-16 15:04:52,059: INFO: stage_01_get_data]: Download file is present at: data\data.xml
+[2023-03-16 15:04:52,067: INFO: stage_01_get_data]: Download headers: Content-Type: text/html; charset=utf-8
+X-Robots-Tag: noindex, nofollow, nosnippet
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 16 Mar 2023 15:04:51 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Referrer-Policy: origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: NID=511=hJmr3axmKeEJ8rl2YVUhDHEsVpgZ1EJsZVN3Do9fGwdlFNkSDKb6ps-Fb0Mkk-8HHzHdC2INFDCzozUs6a9tye4U6F_PrJwzWnZO45wNtamqfTW4n8kOweILu4GFGST_6B1HnzIktDISfZ_jBXryseLwrm17GBs_ty-BMcxXYxU; expires=Fri, 15-Sep-2023 15:04:51 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+
+[2023-03-16 15:04:52,067: INFO: stage_01_get_data]: >>>>> stage stage one get data completed!<<<<<
+
+[2023-03-16 15:08:19,491: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 15:08:19,491: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 15:08:19,494: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 15:08:19,495: INFO: common]: created directory at: data
+[2023-03-16 15:08:19,495: INFO: stage_01_get_data]: Download started
+[2023-03-16 15:08:20,325: INFO: stage_01_get_data]: Download completed
+[2023-03-16 15:08:20,326: INFO: stage_01_get_data]: Download file is present at: data\data.xml
+[2023-03-16 15:08:20,332: INFO: stage_01_get_data]: Download headers: Content-Type: text/html; charset=utf-8
+X-Robots-Tag: noindex, nofollow, nosnippet
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Thu, 16 Mar 2023 15:08:19 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Referrer-Policy: origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: NID=511=rHcvz8irak3ONpm_EF3I05hW3bMQhOJEm2pdS-BNfEaFPc03e8UfYoAqwcySjYxBkxUfDinD493WYpOX7wm3S6BFSQ_Pw3FgBxmHBCWRfTkApnFdnZQLac0uPw5LwiUdsIQl1vTfs7vG51sc_mke4HZiMHls4aNQ9uA6gg8GZKc; expires=Fri, 15-Sep-2023 15:08:19 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+
+[2023-03-16 15:08:20,332: INFO: stage_01_get_data]: >>>>> stage stage one get data completed!<<<<<
+
+[2023-03-16 15:46:44,764: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 15:46:44,764: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 15:46:44,767: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 15:46:44,767: INFO: common]: created directory at: data
+[2023-03-16 15:46:44,767: INFO: stage_01_get_data]: Download started
+[2023-03-16 15:46:49,291: ERROR: stage_01_get_data]: HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File ".\src\stage_01_get_data.py", line 46, in <module>
+    main(config_path=parsed_args.config)
+  File ".\src\stage_01_get_data.py", line 31, in main
+    filename, headers = req.urlretrieve(source_data_url, local_data_dir_filepath)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2023-03-16 15:47:08,248: INFO: stage_01_get_data]: 
+********************
+[2023-03-16 15:47:08,248: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-16 15:47:08,250: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-16 15:47:08,250: INFO: common]: created directory at: data
+[2023-03-16 15:47:08,250: INFO: stage_01_get_data]: Download started
+[2023-03-16 15:47:10,419: ERROR: stage_01_get_data]: HTTP Error 404: Not Found
+Traceback (most recent call last):
+  File ".\src\stage_01_get_data.py", line 46, in <module>
+    main(config_path=parsed_args.config)
+  File ".\src\stage_01_get_data.py", line 31, in main
+    filename, headers = req.urlretrieve(source_data_url, local_data_dir_filepath)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\Dapo\Documents\NLP-folder\AIOPs_DVC_NLP\env\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2023-03-17 06:23:49,218: INFO: stage_01_get_data]: 
+********************
+[2023-03-17 06:23:49,218: INFO: stage_01_get_data]: >>>>> stage stage one get data started <<<<<
+[2023-03-17 06:23:49,218: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-03-17 06:23:49,218: INFO: common]: created directory at: data
+[2023-03-17 06:23:49,218: INFO: stage_01_get_data]: Download started
+[2023-03-17 06:23:50,211: INFO: stage_01_get_data]: Download completed
+[2023-03-17 06:23:50,211: INFO: stage_01_get_data]: Download file is present at: data\data.xml
+[2023-03-17 06:23:50,211: INFO: stage_01_get_data]: Download headers: Content-Type: text/html; charset=utf-8
+X-Robots-Tag: noindex, nofollow, nosnippet
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Fri, 17 Mar 2023 06:23:49 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Referrer-Policy: origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: NID=511=JN51t6w44CT1B9DvIPtgsU5ZpvMJt-jbT6H5wvphYkHXESzLKCVq64GUZf-u2Ut2U5wc6IUGfdDGrXeHTVfUbdvzZLlei1q7SH2wySuXXTFSnn0QNjXeGoWSe7PT0WxQKLipuPU03Nt2tIPChB7qKnqQv4pZAIaKpE31pT9x_wY; expires=Sat, 16-Sep-2023 06:23:48 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+
+[2023-03-17 06:23:50,211: INFO: stage_01_get_data]: >>>>> stage stage one get data completed!<<<<<
+
